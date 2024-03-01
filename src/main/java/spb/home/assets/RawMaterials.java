@@ -1,4 +1,4 @@
-package spb.home.processAssets;
+package spb.home.assets;
 
 public class RawMaterials {
     private String titleRawMaterials;

@@ -1,4 +1,4 @@
-package spb.home.processAssets;
+package spb.home.assets;
 
 public class Product {
     private String titleProduct;

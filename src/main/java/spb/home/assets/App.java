@@ -1,4 +1,4 @@
-package spb.home.processAssets;
+package spb.home.assets;
 
 import spb.home.productionProcess.FirstDistillation;
 import spb.home.productionProcess.NullDistillation;
