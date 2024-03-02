@@ -1,6 +1,6 @@
 package spb.home.assets;
 
-public class Plant {
+public class Factory {
     private String regionFactory;
     private String titleFactory;
     private int capacityProcessingRawMaterials;
@@ -38,11 +38,24 @@ public class Plant {
         this.volumeStorageRawMaterials = volumeStorageRawMaterials;
     }
 
-    public Plant(String regionFactory, String titleFactory, int capacityProcessingRawMaterials, int volumeStorageRawMaterials) {
+    public Factory(String regionFactory, String titleFactory, int capacityProcessingRawMaterials, int volumeStorageRawMaterials) {
         this.regionFactory = regionFactory;
         this.titleFactory = titleFactory;
         this.capacityProcessingRawMaterials = capacityProcessingRawMaterials;
         this.volumeStorageRawMaterials = volumeStorageRawMaterials;
+    }
+
+    public void info() {
+        System.out.println(regionFactory + " "
+                + titleFactory + " "
+                + capacityProcessingRawMaterials + " "
+                + volumeStorageRawMaterials);
+    }
+
+    public void grainSorting(RawMaterials sunflower) {
+        if (titleFactory.equalsIgnoreCase("AMPZ")) {
+            setCapacityProcessingRawMaterials(17000);
+        }
     }
 
 }

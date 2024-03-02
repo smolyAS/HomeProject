@@ -34,4 +34,8 @@ public class RawMaterials {
         this.volumeRawMaterials = volumeRawMaterials;
         this.priceRawMaterials = priceRawMaterials;
     }
+
+    public void info() {
+        System.out.println(titleRawMaterials + " " + priceRawMaterials);
+    }
 }
